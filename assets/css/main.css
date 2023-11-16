@@ -1538,6 +1538,33 @@ input, select, textarea {
 
 		}
 
+
+/* Centered text */
+
+.text-container {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+	border: 5px solid #555;
+  }
+
+.text-centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+  }
+
+.text-black {
+	color: black;
+}
+
+.text-white {
+	color: white;
+}
+
 /* Image */
 
 	.image {
